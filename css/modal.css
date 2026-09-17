@@ -47,7 +47,7 @@
   align-items: center;
   justify-content: center;
   background-color: #e7e9fc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   padding: 0;
   cursor: pointer;
   color: #2e2f42;
@@ -108,7 +108,8 @@
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
-  color: #2e2f42;
+  color: #434455;
+  letter-spacing: 0.02em;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -137,7 +138,7 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #2e2f42;
+  color: #434455;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
@@ -183,13 +184,14 @@
 }
 
 .custom-checkbox-icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #f4f4fd;
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-checkbox:checked + .modal-checkbox-label .custom-checkbox {
   background-color: #404bbf;
   border: none;
-  fill: #f4f4fd;
 }
 
 .modal-checkbox:checked + .modal-checkbox-label .custom-checkbox-icon {
